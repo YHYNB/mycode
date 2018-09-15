@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <link rel="stylesheet" href="webjars/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/icon.ico" />
+    <style type="text/css">
+        .cont{
+            margin-top: 50px;
+            margin-left: 450px;
+        }
+        body{
+            background-color: cornflowerblue;
+
+        }
+
+        .big{
+            margin: 10px;
+
+        }
+        .top{
+            border: 3px solid white;
+            background-color: beige;
+            width: 100%;
+            height: 100px;
+            border-radius:10px;
+        }
+        .left{
+            border: 3px solid blue;
+            background-color:aqua;
+            width: 150px;
+            height: 650px;
+            margin-top: 10px;
+            border-radius:10px;
+            float: left;
+        }
+        .main{
+            margin-top: 10px ;
+            margin-left: 5px;
+            border: 3px solid blue;
+            border-radius:10px;
+            width: 1240px;
+            height: 650px;
+           float:left;
+            background-color:aqua;
+            position: relative;
+        }
+
+        #btn-top{
+            margin: 10px;
+        }
+
+        ul{
+            list-style: none;
+            margin: 0;
+            padding:0px;
+        }
+
+        li{
+
+            font-size: 20px;
+            padding-top: 12px;
+        }
+
+        #menu3 {
+            width: 100%;
+
+        }
+
+        #menu3 li a {
+            height: 32px;
+            voice-family: "\"}\"";
+            voice-family: inherit;
+            height: 50px;
+            text-decoration: none;
+
+        }
+
+        #menu3 li a:link, #menu3 li a:visited {
+            color: black;
+            display: block;
+            background-color: lightsteelblue;
+            padding: 8px 0 0 30px;
+        }
+
+        #menu3 li a:hover, #menu3 li a:active {
+            color: #ffffff;
+            background-color:bisque;
+            padding: 8px 0 0 30px;
+        }
+        .foot{
+            position:absolute;
+            width: 600px;
+            height: 50px;
+            left: 300px;
+            top: 550px;
+            border-radius:20px;border: 2px solid blueviolet;
+            text-align=center
+        }
+        #name{
+            font-size: 25px;
+            margin-left: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="big">
+<div class="top">
+    <button id="btn-top" type="button" class="btn btn-info" style="width: 80px;height: 80px">换班管理</button>
+    <button id="btn-top" type="button" class="btn btn-info" style="width: 80px;height: 80px">串号查询</button>
+    <button id="btn-top" type="button" class="btn btn-info" style="width: 80px;height: 80px">销售分析</button>
+    <button id="btn-top" type="button" class="btn btn-info" style="width: 80px;height: 80px">手机维修</button>
+    <button id="btn-top" type="button" class="btn btn-info" style="width: 80px;height: 80px">会员管理</button>
+    <button id="btn-top" type="button" class="btn btn-info" style="width: 80px;height: 80px">短信群发</button>
+    <button id="btn-top" type="button" class="btn btn-info" style="width: 80px;height: 80px">软件帮助</button>
+    <button id="btn-top" type="button" class="btn btn-info" style="width: 80px;height: 80px">软件帮助</button>
+    <button id="btn-top" type="button" class="btn btn-info" style="width: 80px;height: 80px">退出系统</button>
+
+</div>
+<div class="left">
+    <div id="menu3">
+        <ul>
+            <li><a href="jinhuo.html">进货管理</a></li>
+            <li><a href="xiaoshou.html">销售管理</a></li>
+            <li><a href="#">库存管理</a></li>
+            <li><a href="#">价保返利</a></li>
+            <li><a href="baobiao.html">报表统计</a></li>
+            <li><a href="#">日常管理</a></li>
+            <li><a href="#">系统设置</a></li>
+        </ul>
+    </div>
+
+</div>
+<div class="main">
+    <h4  style="margin-left: 500px;font-size: 25px;margin-top: 100px">进货管理</h4>
+<div class="cont">
+    <div class="cont1">
+        <a href="caigoujinhuo.html"><button type="button" class="btn btn-warning">采购进货</button></a>
+        <a href="caigoutuihuo.html"><button type="button" class="btn btn-warning">采购退货</button></a>
+    </div>
+    <div class="pic" style="margin-left: 80px">
+    <img src="img/pic1.png">
+    </div>
+    <div class="cont2">
+        <button type="button" class="btn btn-warning">往来账务</button>
+        <button type="button" class="btn btn-warning">采购单查询</button>
+        <a href="kucunchaxun.html"><button type="button" class="btn btn-warning">当前库存查询</button></a>
+    </div>
+</div>
+<div class="foot">
+    <a id="name" href="#">商品信息</a>
+    <a id="name" href="#">供应商设置</a>
+    <a id="name" href="#">仓库设置</a>
+    <a id="name" href="#">员工信息</a>
+</div>
+</div>
+</div>
+<script src="webjars/jquery/3.1.1/jquery.min.js"></script>
+<script src="webjars/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
